@@ -18,12 +18,12 @@ function App() {
         <Sidebar /> 
         {/* <Header/> */}
         <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/education' component={Education} />
-          <Route path='/experience' component={Experience} />
-          <Route path='/info' component={Info} />
-          <Route path='/projects' component={Projects} />
-          <Route path='/skills' component={Skills} />
+          <Route path='/web-portfolio/' exact component={Home} />
+          <Route path='/web-portfolio/education' exact component={Education} />
+          <Route path='/web-portfolio/experience' exact component={Experience} />
+          <Route path='/web-portfolio/info' exact component={Info} />
+          <Route path='/web-portfolio/projects' exact component={Projects} />
+          <Route path='/web-portfolio/skills' exact component={Skills} />
         </Switch>
 
       </Router>

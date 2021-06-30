@@ -10,37 +10,37 @@ import * as GiIcons from 'react-icons/gi'
 export const SidebarData = [
   {
     title: 'Home',
-    path: '/',
+    path: '/web-portfolio/',
     icon: <AiIcons.AiOutlineHome />,
     cName: 'nav-text'
   },
   {
     title: 'Education',
-    path: '/education',
+    path: '/web-portfolio/education',
     icon: <IoIcons.IoSchoolOutline />,
     cName: 'nav-text'
   },
   {
     title: 'Experience',
-    path: '/experience',
+    path: '/web-portfolio/experience',
     icon: <BiIcons.BiNetworkChart />,
     cName: 'nav-text'
   },
   {
     title: 'Projects',
-    path: '/projects',
+    path: '/web-portfolio/projects',
     icon: <AiIcons.AiOutlineCode />,
     cName: 'nav-text'
   },
   {
     title: 'Skills',
-    path: '/skills',
+    path: '/web-portfolio/skills',
     icon: <GiIcons.GiSkills />,
     cName: 'nav-text'
   },
   {
     title: 'Info',
-    path: '/info',
+    path: '/web-portfolio/info',
     icon: <AiIcons.AiOutlineInfoCircle />,
     cName: 'nav-text'
   },
