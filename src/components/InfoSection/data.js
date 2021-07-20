@@ -32,19 +32,19 @@ export const homeObjTwo = {
   darkText: true,
 }
 
-export const homeObjThree = {
-  id: 'projects',
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
-  topLine: '',
-  headline: 'Projects',
-  description: '_________',
-  buttonLabel: 'Get Started',
-  imgStart: false,
-  img: require('../../images/education.svg'),
-  alt: 'Car',
-  dark: true,
-  primary: true,
-  darkText: false,
-}
+// export const homeObjThree = {
+//   id: 'projects',
+//   lightBg: false,
+//   lightText: true,
+//   lightTextDesc: true,
+//   topLine: '',
+//   headline: 'Projects',
+//   description: '_________',
+//   buttonLabel: 'Get Started',
+//   imgStart: false,
+//   img: require('../../images/education.svg'),
+//   alt: 'Car',
+//   dark: true,
+//   primary: true,
+//   darkText: false,
+// }
