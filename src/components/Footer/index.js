@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <FooterContainer>
       <FooterWrap>
-        <FooterLinksContainer>
+        {/* <FooterLinksContainer>
           <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle> About Me </FooterLinkTitle>
@@ -48,27 +48,30 @@ const Footer = () => {
                 <FooterLink to="/web-portfolio/placeholder5">Place Holder 5</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
-        </FooterLinksContainer>
+        </FooterLinksContainer> */}
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to='/web-portfolio/' onClick={toggleHome}>
               Jiesen Zhang
             </SocialLogo>
             <SocialIcons>
-              <SocialIconLink href="/" target="_blank" aria-label="Facebook">
+              {/* <SocialIconLink href="/" target="_blank" aria-label="Facebook">
                 <FaFacebook />
-              </SocialIconLink>
+              </SocialIconLink> */}
               <SocialIconLink href="//www.instagram.com/jiesenzhang_/" target="_blank" aria-label="Instagram">
                 <FaInstagram />
               </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="Youtube">
+              <SocialIconLink href="/" target="//https://www.youtube.com/channel/UCo2VUfJQsnxp_tYtVJ3AiVw" aria-label="Youtube">
                 <FaYoutube />
               </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="Twitter">
+              {/* <SocialIconLink href="/" target="_blank" aria-label="Twitter">
                 <FaTwitter />
-              </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="Linkedin">
+              </SocialIconLink> */}
+              <SocialIconLink href="//www.linkedin.com/in/jiesenzhang" target="_blank" aria-label="Linkedin">
                 <FaLinkedin />
+              </SocialIconLink>
+              <SocialIconLink href="//https://github.com/jiesen-zhang" target="_blank" aria-label="Github">
+                <FaGithub />
               </SocialIconLink>
             </SocialIcons>
 
