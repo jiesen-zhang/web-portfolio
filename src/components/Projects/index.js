@@ -12,18 +12,18 @@ const Project = () => {
       <ProjectWrapper>
         <ProjectCard>
           <ProjectIcon src={Icon1}/>
-          <ProjectH2>Reduce Expenses</ProjectH2>
-          <ProjectP> We Help reduce fees.</ProjectP>
+          <ProjectH2> Knowledge Graph</ProjectH2>
+          <ProjectP> Place Holder</ProjectP>
         </ProjectCard>
         <ProjectCard>
           <ProjectIcon src={Icon2}/>
-          <ProjectH2>Virtual Offices</ProjectH2>
-          <ProjectP> Help from anywhere in the world.</ProjectP>
+          <ProjectH2>Place Holder</ProjectH2>
+          <ProjectP> Place Holder</ProjectP>
         </ProjectCard>
         <ProjectCard>
           <ProjectIcon src={Icon3}/>
-          <ProjectH2>Premium Benefits</ProjectH2>
-          <ProjectP> Special membership cards.</ProjectP>
+          <ProjectH2>Place Holder</ProjectH2>
+          <ProjectP> Place Holder</ProjectP>
         </ProjectCard>
       </ProjectWrapper>
     </ProjectContainer>
